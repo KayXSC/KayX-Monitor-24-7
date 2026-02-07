@@ -1,0 +1,17 @@
+{
+  "name": "minecraft-discord-bot",
+  "version": "1.0.0",
+  "description": "Bot de Discord que notifica cuando el servidor de Minecraft se enciende/apaga",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["discord", "minecraft", "bot"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.0",
+    "yaml": "^2.3.4"
+  }
+}

@@ -1,0 +1,25 @@
+# Minecraft Server Discord Bot Configuration
+discord:
+  # Discord bot token
+  token: "YOUR_DISCORD"
+  # Server ID (Guild ID)
+  guildId: "1370043142807621642"
+  # Channel ID for notifications
+  channelId: "1372327046532960476"
+
+minecraft:
+  # Minecraft server IP address
+  host: "188.165.82.209"
+  # Minecraft server port (default 25565)
+  port: 25565
+  # VPS region/location
+  region: "Europe (France)"
+  # Check interval in seconds (how often to check the server status)
+  checkInterval: 5
+
+# Optional mentions
+mentions:
+  # Role ID to mention when server comes online
+  onlineRole: "1457471156343931044"
+  # Role ID to mention when server goes offline
+  offlineRole: "1457471156343931044"
